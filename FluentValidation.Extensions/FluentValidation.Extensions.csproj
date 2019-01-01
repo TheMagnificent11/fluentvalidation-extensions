@@ -7,7 +7,7 @@
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <Authors>Saji Weerasingham</Authors>
     <Company>NA</Company>
-    <Product>FluentValidationExtensions</Product>
+    <PackageId>FluentValidationExtensions</PackageId>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <DocumentationFile>bin\netstandard2.0\FluentValidation.Extensions.xml</DocumentationFile>
