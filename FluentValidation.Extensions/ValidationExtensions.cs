@@ -39,7 +39,7 @@ namespace FluentValidation.Extensions
         /// </summary>
         /// <param name="failures">Validation failures</param>
         /// <returns>Dictionary of errors keyed by the entity property name</returns>
-        public static IDictionary<string, IEnumerable<string>> GetErrors(this IList<ValidationFailure> failures)
+        public static IDictionary<string, IEnumerable<string>> GetErrors(this IEnumerable<ValidationFailure> failures)
         {
             var errors = new Dictionary<string, IEnumerable<string>>();
 
